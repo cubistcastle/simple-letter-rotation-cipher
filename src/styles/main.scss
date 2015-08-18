@@ -1,0 +1,50 @@
+@import 'range';
+
+/* main */
+
+.main {
+	width: 80%;
+	margin:0 auto;
+	height: 100%;
+	padding:2em;
+}
+
+.main img {
+	width: 103px;
+	height: 89px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.form-control {
+	width: 100%;
+	height: 75px;
+}
+.rotation-level {
+	margin-bottom: 10px;
+	margin-left: 13px;
+	display: block;
+}
+.ranger {
+	background-color: #f4f4f4;
+	padding: 2em;
+}
+/* transitions */
+
+.fade-enter {
+	opacity: 0.01;
+	transition: opacity .5s ease-in;
+}
+
+.fade-enter.fade-enter-active {
+	opacity: 1;
+}
+
+.fade-leave {
+	opacity: 1;
+	transition: opacity .5s ease-in;
+}
+
+.fade-leave.fade-leave-active {
+	opacity: 0.01;
+}
+
